@@ -1,7 +1,7 @@
 require "bundler/capistrano"
 require "rvm/capistrano"
 
-server "127.0.1.1", :web, :app, :db, primary: true
+server "127.0.1.1:3022", :web, :app, :db, primary: true
 
 set :application, "test_capistarno_deploy"
 set :user, "ubuntu"
