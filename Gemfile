@@ -17,9 +17,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'unicorn'
  
-group :development do
- gem 'capistrano'
-end
+gem 'capistrano'
+gem 'rvm-capistrano'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
